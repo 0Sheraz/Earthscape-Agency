@@ -1,9 +1,3 @@
-streamlit>=1.28.0
-pyrebase4>=4.5.0
-python-dotenv>=1.0.0
-setuptools>=65.5.0
-wheel>=0.40.0
-
-
---install-option="--install-scripts=/usr/local/bin" 
-
+streamlit==1.28.0
+pyrebase4==4.5.0
+python-dotenv==1.0.0
