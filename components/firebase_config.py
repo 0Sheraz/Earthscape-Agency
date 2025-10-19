@@ -1,4 +1,4 @@
-import pyrebase
+import streamlit as st
 
 firebaseConfig = {
     "apiKey": "AIzaSyCAgDpTsp4XUCyWwsQ-BKq35eWd3LiajWk",
@@ -10,7 +10,7 @@ firebaseConfig = {
     "appId": "1:981413608442:web:3a27f181f0ed650ef6c243"
 }
 
-firebase = pyrebase.initialize_app(firebaseConfig)
+firebase = st(firebaseConfig)
 auth = firebase.auth()
 db = firebase.database()
 storage = firebase.storage()
