@@ -1,9 +1,9 @@
 streamlit>=1.28.0
-pyrebase4>=4.5.0
-python-dotenv>=1.0.0
-setuptools>=65.5.0
-wheel>=0.40.0
-
-
---install-option="--install-scripts=/usr/local/bin" 
-
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.7.0
+plotly>=5.15.0
+seaborn>=0.12.0
+pyrebase4
+pyrebase4 scikit-learn
+scikit-learn
